@@ -24,11 +24,18 @@ The `kubectl-rbac-flatten` plugin analyzes and consolidates Kubernetes RBAC (Rol
 
 ### Using Krew (Recommended)
 
-Coming soon - this plugin will be available through the [kubectl plugin manager Krew](https://krew.sigs.k8s.io/).
+_Note: Krew distribution is planned for a future release. Until then, please use manual installation or build from source._
+
+Once available, you'll be able to install via [Krew](https://krew.sigs.k8s.io/):
+```bash
+kubectl krew install rbac-flatten
+```
 
 ### Manual Installation
 
-1. Download the latest release from the [releases page](https://github.com/kubestellar/kubectl-rbac-flatten-plugin/releases)
+_Note: Pre-built releases will be available once the first version is published._
+
+1. Download the latest release from the [releases page](https://github.com/kubestellar/kubectl-rbac-flatten-plugin/releases) (when available)
 2. Extract the binary and place it in your PATH:
    ```bash
    tar -xzf kubectl-rbac-flatten-*.tar.gz
@@ -106,7 +113,7 @@ kubectl rbac-flatten roles -n kube-system
 
 ### Prerequisites for Development
 
-- Go 1.21 or later
+- Go 1.20 or later
 - kubectl
 - Access to a Kubernetes cluster for testing
 
