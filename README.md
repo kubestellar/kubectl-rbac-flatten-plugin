@@ -176,3 +176,5 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 ## Acknowledgments
 
 This plugin is part of the [KubeStellar](https://github.com/kubestellar) project ecosystem, which focuses on multi-cluster management and control plane solutions for Kubernetes.
+
+<!-- CI Test: 2026-01-13T03:01:02Z -->
